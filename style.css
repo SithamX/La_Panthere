@@ -287,6 +287,25 @@ a:hover {
     font-size: 32px;
 }
 
+.h2_bloc-2-services {
+    max-width: 630px; 
+    margin: auto; 
+    padding-bottom: 20px;
+}
+
+.citation_texte_bloc-2-services {
+    font-size: 1.3em; 
+    font-weight: 600; 
+    margin: auto; 
+    font-style: italic; 
+    max-width: 550px;
+}
+
+.citation_auteur_bloc-2-services {
+    font-size: 1.3em; 
+    margin: auto;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -676,9 +695,9 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+/* p {
+    font-size: 11px;            Je l'enlève pour voir 
+} */ 
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -753,7 +772,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(86, 65, 39, 0.8); /* avant il y avait 165, 147, 99, 0.7 */
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,6 +795,10 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-white-contact-page {
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -813,16 +836,22 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.titre_bloc-4 {
+    max-width: 450px;
+    margin: auto;
+}
+
+.footer-icons-flex {
+    display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1054,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .col-xs-12 img {
+     width: 80%;
     }
 }
 
