@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 1)
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,12 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, .6);
+    color: #4D4D4D;
+}
+
+.text-footer {
+    font-size: 1.2em; 
+    color: #000000!important;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -287,10 +292,11 @@ a:hover {
     font-size: 32px;
 }
 
-.h2_bloc-2-services {
-    max-width: 630px; 
+.titre-bloc-2 {
+    max-width: 650px; 
     margin: auto; 
     padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .citation_texte_bloc-2-services {
@@ -772,7 +778,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(86, 65, 39, 0.8); /* avant il y avait 165, 147, 99, 0.7 */
+    background-color: rgba(0, 0, 0, 0.65); /* avant il y avait 165, 147, 99, 0.7 */
     padding: 40px 40px 40px 40px;
 }
 
@@ -790,25 +796,29 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #DFC996;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .tc-white-contact-page {
-    color: #FFFFFF!important;
+    color: #000000!important;
+}
+
+.h2-bloc-3 {
+    color: #DFC996!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #DFC996;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #C5B287!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -820,11 +830,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ed6526!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #ed6526!important;
 }
 
 .icon-dark-slate-blue {
@@ -847,6 +857,7 @@ h4 {
 .titre_bloc-4 {
     max-width: 450px;
     margin: auto;
+    font-weight: 700;
 }
 
 .titre_formulaire_de_contact {
@@ -905,20 +916,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
